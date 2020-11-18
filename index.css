@@ -1,0 +1,27 @@
+.navbar{
+  background-color: #28df99;
+}
+
+.card-body{
+  font-style: italic;
+  font-family:sans-serif;
+  font-weight: bolder;
+  color:#555555;
+  background-color:#28df99;
+  text-align: center;
+    width:100%;
+}
+.card-layout1{
+      background-color:#28df99;
+}
+.card-title
+{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.card-layout1{
+  padding-bottom: 2rem;
+  padding-top: 4rem;
+    width:100%;
+
+}
