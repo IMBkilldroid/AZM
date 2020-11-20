@@ -1,32 +1,6 @@
 
-body{
-     background-color: #28df99;
-     width: 100%;
-}
-
 .navbar{
   background-color: #28df99;
-}
-
-.card-body{
-  font-style: italic;
-  font-family:sans-serif;
-  font-weight: bolder;
-  color:#555555;
-    background-color: #f6f7d4;
-  text-align: center;
-
-}
-.card-title
-{
-  font-size: 2rem;
-  font-weight: 400;
-}
-.card-layout1{
-  padding-bottom: 2rem;
-  padding-top: 4rem;
-    width:100%;
-
 }
 .nav-item1{
 font-size: 3rem;
@@ -38,11 +12,18 @@ font-size: 3rem;
 .form-inline{
   padding-top: 1rem;
 }
-
-.card-deck{
-  background-color:#28df99;
-    padding-top: 5%;
-      padding-bottom: 3%;
+.image1{text-align:center;
+    background-color: #28df99;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius:50%;
+}
+.img1{
+      border-radius:50%;
+}
+.card-body{
+    background-color: #28df99;
+    border-radius: 1%;
 }
 @media screen and (max-width:600px)
  {

@@ -1,12 +1,112 @@
-body{
-  background-color:  #28df99;
+@media screen and (max-width:600px) {
+  .nav-item1 {
+    font-size: 2rem;
+  }
+
+  .nav-item2 {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .form-inline {
+    padding-top: 1rem;
+  }
+
+  .image1 {
+    text-align: center;
+    background-color: #28df99;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 35%;
+  }
+
+  .carou1 {
+    padding-top: 1rem;
+    padding-left: 2rem;;
+  }
+
+  .img2, .img3, .img4 {
+    border-radius: 43%;
+  }
+
+  .card-barber {
+    text-align: center;
+    padding:0;
+    border-radius: 50%;
+    font-size: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 0.75rem;
+  }
+  .navbar {
+    background-color: #28df99;
+  }
+
+  .btn01 {
+    color: #28df99;
+    padding-left: 3%;
+    position: relative;
+  }
+
 }
 
-.navbar{
-  background-color: #28df99;
+@media screen and (max-width:992px) {
+  .nav-item1 {
+    font-size: 2rem;
+  }
+
+  .nav-item2 {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  .form-inline {
+    padding-top: 1rem;
+  }
 }
-.btn01{
-color:  #28df99;
-padding-left:3%;
-position: relative;
+@media screen and (min-width:1200px){
+  body {
+    background-color: #28df99;
+  }
+
+  .navbar {
+    background-color: #28df99;
+  }
+
+  .btn01 {
+    color: #28df99;
+    padding-left: 3%;
+    position: relative;
+  }
+
+  .carou1 {
+    padding-top: 1rem;
+    padding-left: 10rem;
+  }
+
+  .img2, .img3, .img4 {
+    border-radius: 43%;
+  }
+
+  .card-barber {
+    text-align: center;
+    padding: 4rem;
+    background-color: #f6f7d4;
+    border-radius: 50%;
+  }
+
+  .card-title {
+    font-size: 3rem;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+  }
+
+
 }
