@@ -1,112 +1,71 @@
-@media screen and (max-width:600px) {
-  .nav-item1 {
-    font-size: 2rem;
-  }
-
-  .nav-item2 {
-    font-size: 1rem;
-    padding-top: 0.5rem;
-  }
-
-  .form-inline {
-    padding-top: 1rem;
-  }
-
-  .image1 {
-    text-align: center;
-    background-color: #28df99;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
-    border-radius: 35%;
-  }
-
-  .carou1 {
-    padding-top: 1rem;
-    padding-left: 2rem;;
-  }
-
-  .img2, .img3, .img4 {
-    border-radius: 43%;
-  }
-
-  .card-barber {
-    text-align: center;
-    padding:0;
-    border-radius: 50%;
-    font-size: 0.5rem;
-  }
-
-  .card-title {
-    font-size: 1.5rem;
-  }
-
-  .card-text {
-    font-size: 0.75rem;
-  }
-  .navbar {
-    background-color: #28df99;
-  }
-
-  .btn01 {
-    color: #28df99;
-    padding-left: 3%;
-    position: relative;
-  }
-
-}
-
-@media screen and (max-width:992px) {
-  .nav-item1 {
-    font-size: 2rem;
-  }
-
-  .nav-item2 {
-    font-size: 1rem;
-    padding-top: 0.5rem;
-  }
-
-  .form-inline {
-    padding-top: 1rem;
-  }
-}
-@media screen and (min-width:1200px){
+@media screen and (min-width:320px) {
   body {
     background-color: #28df99;
   }
 
   .navbar {
+    justify-content:space-between;
+    min-width: 415px;
+  }
+  .carou1{
+  padding-left: 8%;
+  padding-top: 2rem;
+ }
+ .card-barber{
+text-align: right;
+font-size: 2rem;
+ }
+ .btn01{
+   padding-top: 1rem;
+   padding-left: 1rem;
+ }
+ .img4,.img2,.img3{
+   border-radius: 33%;
+ }
+
+}
+
+@media screen and (min-width:375px) {
+  body {
     background-color: #28df99;
   }
-
-  .btn01 {
-    color: #28df99;
-    padding-left: 3%;
-    position: relative;
+  .carou1{
+    padding-left: 1rem;
   }
 
-  .carou1 {
+}
+
+@media screen and (min-width:410px) {
+  body {
+    background-color: #28df99;
+  }
+  .carou1{
+    padding-left: 0;
     padding-top: 1rem;
-    padding-left: 10rem;
   }
-
-  .img2, .img3, .img4 {
-    border-radius: 43%;
+}
+@media screen and (min-width:768px) {
+  body {
+    background-color: #28df99;
   }
-
-  .card-barber {
-    text-align: center;
-    padding: 4rem;
-    background-color: #f6f7d4;
-    border-radius: 50%;
+  .carou1{
+    padding-top: 4rem;
   }
-
-  .card-title {
-    font-size: 3rem;
+  .card-barber{
+    padding-top: 5rem;
   }
-
-  .card-text {
-    font-size: 1.5rem;
+  .btn01{
+    padding-left: 1rem;
   }
-
-
+  .navbar{
+    padding-left: 2rem;
+  }
+}
+@media screen and (min-width:768px){
+  .card-barber{
+    padding-top: 23%;
+  }
+  .btn01{
+    padding-left: 2rem;
+  }
 }
