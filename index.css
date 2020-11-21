@@ -44,6 +44,9 @@ font-size: 3rem;
     padding-top: 5%;
       padding-bottom: 3%;
 }
+img1{
+  max-width: 310px;
+}
 @media screen and (max-width:600px)
  {
   .nav-item1
@@ -77,4 +80,7 @@ font-size: 3rem;
   .form-inline{
     padding-top: 1rem;
   }
+}
+@media screen and(min-width:320px;) { 
+
 }

@@ -1,0 +1,22 @@
+@media screen and (min-width:320px)
+{
+  body{
+    background-color: #28df99;
+}
+.btn01{
+  padding-top: 1rem;
+padding-left: 1rem;}
+.card{
+    background-color: #28df99;
+    padding-left:4rem;
+    text-align: right;
+}
+h2{
+  padding-left: 1rem;
+  color:#323232;
+  font-weight: bolder;
+  font-family: sans-serif;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+}
