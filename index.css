@@ -40,7 +40,7 @@ body,html{
       margin-top:2rem;
     }
   }
-@media screen and (min-width:350px) {
+@media screen and (min-width:375px) {
   footer{
     margin-top:7rem;
   }
