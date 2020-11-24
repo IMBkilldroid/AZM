@@ -1,0 +1,48 @@
+html,body{
+  background-color: #28df99;
+  }
+  .nav-item1{
+      font-size: 2rem;
+  }
+.nav-item2{
+  padding-top: 1rem;
+}
+@media screen and (min-width:320px) {
+  .btn01{
+padding-left:10px;
+padding-right: 7px;
+    background-color: #28df99;
+  }
+  .navbar{
+    background-color: #28df99;
+  }
+  .cont1{
+    text-align:center;
+    text-decoration: underline;
+    font-size: 1rem;
+    padding-top: 1rem;
+    color: white;
+  }
+  .blog{
+    background-color: white;
+    color: #393e46;
+    margin: auto;
+    text-align: right;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-right: .25rem;
+  }
+  .blog2{
+    background-color:#28df99;
+    color: white;
+    text-align: right;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+    padding-right: .25rem;
+
+  }
+}
+@media screen and (min-width:375px)
+{
+
+}
