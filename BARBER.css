@@ -19,4 +19,23 @@ h2{
   padding-top: 1rem;
   padding-bottom: 2rem;
 }
+.container-fluid{
+  padding-top: 3rem;
+  padding-left: 1rem;
+  text-align: center;
+  color: white;
+}
+.blog{
+  background-color: white;
+  padding-top: 1rem;
+  padding-left: 0.5em;
+padding-bottom: 0.75rem;
+}
+footer{
+  margin-top: 7rem;
+  font-size: 0.75rem;
+  background-color: white;
+  padding-bottom: 1rem;
+}
+
 }
