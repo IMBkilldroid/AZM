@@ -26,16 +26,16 @@ h2{
   color: white;
 }
 .blog{
-  background-color: white;
   padding-top: 1rem;
   padding-left: 0.5em;
-padding-bottom:4rem;
+  color:white;
 }
 footer{
-  margin-top: 8rem;
+  margin-top:5rem;
   font-size: 0.75rem;
   background-color: white;
   padding-bottom: 1rem;
+  text-align: center;
 }
 
 }
